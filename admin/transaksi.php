@@ -225,7 +225,7 @@ if ($_SESSION['roles'] != 'Admin') {
                 ?>
             </table>
             <!-- yg udah di verifikasi -->
-            <h3>List Pesanan yang sudah di Verifikasi <a href="cetak_transaksi.php">Cetak</a></h3>
+            <h3>List Pesanan yang sudah di Verifikasi</h3>
             <table border="1" cellpadding="10" cellspacing="0">
                 <tr>
                     <th>No</th>

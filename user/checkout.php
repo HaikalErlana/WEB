@@ -21,7 +21,7 @@ include '../koneksi.php';
     <!-- next buka proses_checkout.php, -->
     <form action="proses_checkout.php?id_produk=<?= $data['id_produk']; ?>" method="post">
         <label for="">Tanggal Transaksi<label><br>
-        <input type="datetime-local" name="tgl_transaksi" value="<?= date('y-m-d'); ?>"><br><br>
+        <input type="datetime-local" name="tgl_transaksi" value="<?= date('Y-m-d'); ?>"><br><br>
 
         <label for="">Alamat<label><br>
         <input type="text" name="alamat"><br><br>

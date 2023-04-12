@@ -29,7 +29,7 @@
             $no_wa = $data["no_wa"];
             $jml = $data["qty"];
             $nama_penerima = $_POST["nama_penerima"];
-            $nama_lengkap = $_POST["nama_lengkap"];
+            $nama_lengkap = $data["nama_lengkap"];
             $nama_produk = $barang["nama_produk"];
             $harga = $barang["harga"];
             $price = $total_harga;
